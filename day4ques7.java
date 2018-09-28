@@ -78,7 +78,10 @@ public class day4ques7 {
 					 for(j=0;j<max;j++)
 					 {
 						 System.out.print(output[j]);
+						
 					 }
+					 
+					 break;
 				 }
 				 else
 				 {
@@ -91,13 +94,7 @@ public class day4ques7 {
 		}
 		
 
-		 if(count==max)
-		 {
-			 for(j=0;j<max;j++)
-			 {
-				 System.out.print(output[j]);
-			 }
-		 }
+		 
 		
 	}
 	
@@ -107,8 +104,8 @@ public class day4ques7 {
       Scanner s =new Scanner(System.in);
       
       String str;
-      
       System.out.println("Enter string");
+      
       str=s.nextLine();
       
       day4ques7 obj=new day4ques7();
